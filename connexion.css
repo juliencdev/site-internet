@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #38b6ff;
+}
+header{
+    height:100px;
+    display: flex;
+    justify-content: right;
+
+}
+#lienAccueil{
+    text-decoration: none;
+    color:#38b6ff;
+    font-size:25px;
+}
+#hautPage{
+    background-color:#ff914d;
+    height:100%;
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
