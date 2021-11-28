@@ -25,3 +25,34 @@ header{
     justify-content: center;
     align-items: center;
 }
+form{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#lienMembre{
+    text-decoration: none; 
+    background-color:#ff914d;
+    color:#38b6ff;
+    margin-top: 50px;
+    padding: 20px;
+    font-size:30px;
+    font-weight: bold;
+}
+#identification{
+    display:flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+#mdp{
+    display:flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+label{
+    color:#ff914d;
+    font-size:30px;
+    font-weight: bold;
+    margin-right:20px;
+}
