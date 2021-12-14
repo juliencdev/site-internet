@@ -79,4 +79,17 @@ font-family: Patrick Hand;
     
     padding-right: 40px;
 }
+footer{
+    background-color: #ff914d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display:flex;
+    justify-content: space-around;
+}
+.liens_footer{
+    color:#38b6ff;
 
+}
+#vide {
+    width:25%;
+}
