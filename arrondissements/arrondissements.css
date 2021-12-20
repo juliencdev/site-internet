@@ -79,3 +79,45 @@ font-family: Patrick Hand;
     
     padding-right: 40px;
 }
+footer{
+    background-color: #ff914d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display:flex;
+    justify-content: space-around;
+}
+.liens_footer{
+    color:#38b6ff;
+
+}
+#vide {
+    width:25%;
+}
+#bandeau {
+    width:100%;
+    height: 300px;
+  }
+  #sommaire {
+    background-color: #38b6ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#articles {
+    background-color: #38b6ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    color:#ff914d;
+}
+.contenu {
+    display:flex;
+    justify-content: space-between;
+    margin:20px;
+}
+#immeublecath{
+    width: 400px;
+    height:400px;
+}
