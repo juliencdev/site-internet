@@ -109,15 +109,23 @@ footer{
     flex-direction: column;
     align-items: center;
 }
-h2 {
+h2{
+  color:#ff914d;
+
+}
+h3 {
     color:#ff914d;
 }
 .contenu {
     display:flex;
     justify-content: space-between;
-    margin:20px;
+    margin-right:120px;
+    margin-left:120px;
 }
-#immeublecath{
-    width: 400px;
-    height:400px;
+.illustration{
+    width: 350px;
+    height:350px;
+}
+.description{
+    margin-right:20px;
 }
