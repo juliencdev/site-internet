@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connexion</title>
-    <link rel="stylesheet" href="connexion.css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
@@ -18,19 +18,25 @@
     </header>
     <main>
     <section>
-    <form action=connexion method="POST">
-        <div id="identification">
-    <label>Identifiant</label>
-    <input type="text" id="identifiant" name="identifiant">
+    <form action=envoyer method="POST">
+        <div class="champ">
+    <label>Nom</label>
+    <input type="text" id="nom" name="nom">
         </div>
-        <div id="mdp">
-    <label>Mot de passe</label>
-    <input type="password" id="MotDePasse" name="MotDePasse">
+        <div class="champ">
+    <label>Prénom</label>
+    <input type="text" id="prenom" name="prenom">
         </div>
-    <a href="membre.html" id="lienMembre">Se connecter</a>
+        <div class="champ">
+    <label>Mail</label>
+    <input type="text" id="mail" name="mail">
+        </div>
+        <h1 id="demande">Votre demande</h1>
+    <textarea placeholder="Votre demande" name="demande"></textarea>
+    <a href="#" id="lienEnvoi">Envoyer</a>
     </form>
 </section>
-</main>
+    </main>
     <footer>
         <a href="#" class="liens_footer">Contact</a>
         <a href="#" class="liens_footer"> Mentions Légales </a>
