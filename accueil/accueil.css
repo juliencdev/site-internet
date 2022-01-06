@@ -108,7 +108,25 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 h2 {
     color:#ff914d;
+}
+.contenu {
+    display:flex;
+    justify-content: space-between;
+    margin-right:120px;
+    margin-left:120px;
+}
+.illustration{
+    width: 350px;
+    height:350px;
+}
+.description{
+    margin-right:20px;
+}
+h3{
+    color :#ff914d;
 }

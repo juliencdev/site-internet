@@ -25,3 +25,63 @@ header{
     justify-content: center;
     align-items: center;
 }
+form{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#lienEnvoi{
+    text-decoration: none; 
+    background-color:#ff914d;
+    color:#38b6ff;
+    margin-top: 30px;
+    padding: 20px;
+    font-size:30px;
+    font-weight: bold;
+}
+.champ{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+label{
+    color:#ff914d;
+    font-size:30px;
+    font-weight: bold;
+    margin-right:20px;
+}
+textarea{
+    margin-top: 20px;
+    width:250px;
+    height:100px;
+}
+#description{
+    margin-top: 20px;
+    color:#ff914d;
+}
+footer{
+    background-color: #ff914d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display:flex;
+    justify-content: space-around;
+}
+.liens_footer{
+    color:#38b6ff;
+
+}
+#vide {
+    width:25%;
+}
+a{
+    color: #ff914d;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+section {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
